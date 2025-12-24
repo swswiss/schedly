@@ -1,24 +1,14 @@
-# README
+# Schedly
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Schedly is a SaaS application for scheduling and managing social media posts.
 
-Things you may want to cover:
+## Tech Stack
+- Ruby on Rails
+- PostgreSQL
+- Tailwind CSS
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup
+```bash
+bundle install
+bin/rails db:setup
+bin/dev
